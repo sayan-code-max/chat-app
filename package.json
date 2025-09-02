@@ -3,9 +3,11 @@
   "name": "chat-app",
   "private": true,
   "version": "0.0.0",
+  "description": "A chatbot using Google Gemini API.",
+  "license": "MIT",
   "type": "module",
   "scripts": {
-    "start": "vite", 
+    "start": "vite",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -19,8 +21,6 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
-    "@types/react": "^19.1.2",
-    "@types/react-dom": "^19.1.2",
     "@vitejs/plugin-react": "^4.4.1",
     "eslint": "^9.25.0",
     "eslint-plugin-react-hooks": "^5.2.0",
